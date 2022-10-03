@@ -1,0 +1,99 @@
+html {
+    background-color: #000000;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    padding: 56px 120px;
+    box-sizing: border-box;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 53px;
+}
+
+.main-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.stats__part{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.counter{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.timeline{
+    height: 60px;
+    margin-top: 26px;
+    position: relative;
+}
+
+.line{
+    height: 2px;
+    width: 1040px;
+    background: #292929;
+    position: absolute;
+    bottom: 0;
+}
+
+.timeline__button{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 95%;
+    bottom: 86px;
+    cursor: pointer;
+    z-index: 0;
+}
+
+.play-icon{
+    width: 0; 
+    height: 0; 
+    border-top: 9px solid transparent;
+     border-bottom: 9px solid transparent;
+     border-left: 15px solid white;
+}
+
+.pause-icon{
+    display: none;
+    border-left:5px solid #fff;
+    border-right:5px solid white;
+    width: 3px;
+    height: 18px;
+}
+
+.columns{
+ display: flex;
+ flex-direction: row;
+ gap: 2px;
+ position: absolute;
+ bottom: 0;
+ left: 8px;
+}
+
+.columns div{
+    min-height: 5px;
+    width: 8px;
+    background-color: #292929;
+    cursor: pointer;
+}
